@@ -1,0 +1,35 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Microsoft/azure-pipelines-task-lib/master/tasks.schema.json",
+    "id": "7bbd83b5-0553-476b-96e0-b05b94fbd93f",
+    "name": "balbuildandreleasetask",
+    "friendlyName": "ballerina install task",
+    "description": "installs ballerina",
+    "helpMarkDown": "",
+    "category": "Utility",
+    "author": "xlight05",
+    "version": {
+        "Major": 0,
+        "Minor": 1,
+        "Patch": 0
+    },
+    "instanceNameFormat": "Echo $(samplestring)",
+    "inputs": [
+        {
+            "name": "version",
+            "type": "string",
+            "label": "Version",
+            "defaultValue": "2201.6.x",
+            "required": true,
+            "helpMarkDown": "Version Spec of the version to use.  Examples: 2201.6.0, 2201.6.x"
+        }
+    ],
+    "execution": {
+        "Node16": {
+            "target": "index.js"
+        }
+    },
+    "messages": {
+        "UnexpectedOS": "Unexpected OS %s",
+        "BallerinaVersionNotFound": "Unable to find Ballerina version %s for platform %s and architecture %s."
+    }
+}

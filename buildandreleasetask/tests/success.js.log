@@ -1,0 +1,84 @@
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loaded 0
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]task result: Failed
+##vso[task.issue type=error;]Input required: samplestring
+##vso[task.complete result=Failed;]Input required: samplestring
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_SAMPLESTRING
+##vso[task.debug]loaded 1
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]samplestring=human
+Hello Meow
+##vso[task.debug]
+##vso[task.debug]creating path: temp
+loc_mock_TOOL_LIB_Downloading https://dist.ballerina.io/downloads/2201.6.0/ballerina-2201.6.0-swan-lake-macos-x64.pkg
+##vso[task.debug]destination temp/6d351134-284c-417d-8085-dd3ec992297d
+##vso[task.debug]downloading
+##vso[task.debug]Content-Length of downloaded file: 250038711
+##vso[task.debug]creating stream
+##vso[task.debug]task result: Failed
+##vso[task.issue type=error;]ENOENT: no such file or directory, open 'temp/6d351134-284c-417d-8085-dd3ec992297d'
+##vso[task.complete result=Failed;]ENOENT: no such file or directory, open 'temp/6d351134-284c-417d-8085-dd3ec992297d'
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_SAMPLESTRING
+##vso[task.debug]loaded 1
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]samplestring=human
+Hello Meow
+##vso[task.debug]
+##vso[task.debug]creating path: tmp
+loc_mock_TOOL_LIB_Downloading https://dist.ballerina.io/downloads/2201.6.0/ballerina-2201.6.0-swan-lake-macos-x64.pkg
+##vso[task.debug]destination tmp/f604bdb4-e7aa-4d12-96a9-25a7b723e2be
+##vso[task.debug]downloading
+##vso[task.debug]Content-Length of downloaded file: 250038711
+##vso[task.debug]creating stream
+##vso[task.debug]task result: Failed
+##vso[task.issue type=error;]ENOENT: no such file or directory, open 'tmp/f604bdb4-e7aa-4d12-96a9-25a7b723e2be'
+##vso[task.complete result=Failed;]ENOENT: no such file or directory, open 'tmp/f604bdb4-e7aa-4d12-96a9-25a7b723e2be'
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_SAMPLESTRING
+##vso[task.debug]loaded 1
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]samplestring=human
+Hello Meow
+##vso[task.debug]
+##vso[task.debug]creating path: tmp
+loc_mock_TOOL_LIB_Downloading https://dist.ballerina.io/downloads/2201.6.0/ballerina-2201.6.0-swan-lake-macos-x64.pkg
+##vso[task.debug]destination tmp/b40437b3-75a4-45cc-91e9-0b7685e59e33
+##vso[task.debug]downloading
+##vso[task.debug]Content-Length of downloaded file: 250038711
+##vso[task.debug]creating stream
+##vso[task.debug]task result: Failed
+##vso[task.issue type=error;]ENOENT: no such file or directory, open 'tmp/b40437b3-75a4-45cc-91e9-0b7685e59e33'
+##vso[task.complete result=Failed;]ENOENT: no such file or directory, open 'tmp/b40437b3-75a4-45cc-91e9-0b7685e59e33'
+
+
+STDERR: /Users/wso2/azure-pipelines-task-lib/_download/node6/node-v6.17.1-darwin-x64/bin/node: Studio is not supported in NODE_OPTIONS
+
+
+STDERR: /Users/wso2/azure-pipelines-task-lib/_download/node6/node-v6.17.1-darwin-x64/bin/node: Studio is not supported in NODE_OPTIONS
+
